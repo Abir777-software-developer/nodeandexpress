@@ -1,0 +1,5 @@
+npm -local dependency -npm i <packagename>
+global dependency-npm i -g <packagename>
+npm init (ask lot of question)-package.json
+but if we want to skip all th equestion to create package.json you can easily do npm init -y
+lets say you have a project and want to push to github but you dont want to push node modules to github so you write node modules in gitignore but the question arise if someone want to use that project from your github then how he will use the project as the modules are not prseent there thats there works packaage.json where the dependencies are mentioned ,you have to do just npm install and all the depenedencies mentioned will be installed
